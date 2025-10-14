@@ -1,27 +1,20 @@
-const uusitodo = document.getElementById('uusi-todo');
-const todolista = document.getElementById('todo-lista');
-const todomr = document.getElementById('todo-maara');
-const filtteribtn = document.querySelectorAll('.filtterien napit');
+// Syöttökentän sisällön tarkistaminen (tyhjä tai liian lyhyt)
 
-let todos = [];
-let filtteri = 'kaikki';
+// Virheellinen sisältö muuttaa kentän korostuksen punaiseksi
 
-uusitodo.addEventListener('painallus', (e) => {
-  if (e.key === 'Enter' && e.target.value.trim() !== '') {
-    todos.push({ text: e.target.value.trim(), completed: false });
-    e.target.value = '';
-    render();
-  }
-});
+// Listasta voi poistaa elementin
 
-// tehtävät muutetaan tehdyiksi
-function tehty(index) {
-  todos[index].completed = !todos[index].completed;
-  render();
-}
+// Listasta voi merkitä tehtävän tehdyksi
 
-// poistetaan todo-listalta tehtäviä
-function poistaTodo(index) {
-  todos.splice(index, 1);
-  render();
-}
+// Lisätoiminto: alasvetovalikko/valintalaatikko
+
+// Lisätoiminto: laskuri
+
+// Lisätoiminto: tapa piilottaa elementtejä sovelluksessa
+
+// Lisätoiminto: HTML5:n drag&drop -toiminto
+
+// Lisätoiminto: Nappi -> aktiivinen
+
+// Lisätoiminto Nappi -> tehdyt
+
