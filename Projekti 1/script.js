@@ -18,3 +18,19 @@
 
 // Lisätoiminto Nappi -> tehdyt
 
+
+const uusitodo = document.getElementById('uusi-todo');
+const todolista = document.getElementById('todo-lista');
+const todoMr = document.getElementById('todo-maara');
+const filtteriBtn = document.querySelectorAll('.filtterien napit');
+
+let todos = [];
+let filter = 'all';
+
+uusitodo.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter' && e.target.value.trim() !== '') {
+    todos.push({ text: e.target.value.trim(), completed: false });
+    e.target.value = '';
+    render();
+  }
+});
