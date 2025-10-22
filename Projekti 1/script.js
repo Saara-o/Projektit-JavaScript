@@ -22,7 +22,7 @@ const uusitodo = document.getElementById("uusi-todo");
 const todolista = document.getElementById("todo-lista");
 const todoMr = document.getElementById("todo-maara");
 const filtteriBtn = document.querySelectorAll(".filtterit button");
-const virheIlmoitus = document.createElement('p');
+const virheIlmoitus = document.createElement("p");
 
 let todos = [];
 let filter = "all";
@@ -50,6 +50,10 @@ uusitodo.addEventListener("keypress", (e) => {
     render();
   }
 });
+
+function naytaVirhe(viesti) {
+  virheIlmoitus.textContent = viesti;
+}
 
 // tehtävä muutetaan tehdyksi
 function toggleComplete(index) {
