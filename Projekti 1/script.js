@@ -1,15 +1,3 @@
-// Syöttökentän sisällön tarkistaminen (tyhjä tai liian lyhyt)
-
-// Listasta voi poistaa elementin
-
-// Listasta voi merkitä tehtävän tehdyksi
-
-// Lisätoiminto: laskuri
-
-// Lisätoiminto: Nappi -> aktiivinen
-
-// Lisätoiminto Nappi -> tehdyt
-
 const uusitodo = document.getElementById("uusi-todo");
 const todolista = document.getElementById("todo-lista");
 const todoMr = document.getElementById("todo-maara");
