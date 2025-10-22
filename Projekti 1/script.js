@@ -27,8 +27,21 @@ const virheIlmoitus = document.createElement("p");
 let todos = [];
 let filter = "all";
 
+// localstoragen tallennus ja lataus
+function tallennaTodos() {
+  localStorage.setItem('todos', JSON.stringify(todos));
+}
+
+function lataaTodos() {
+  const tallennetut = localStorage.getItem('todos');
+  if (tallennetut) {
+    todos = JSON.parse(tallennetut);
+  }
+}
+
 // virheilmoitus tekstikentän alle
 uusitodo.insertAdjacentElement("afterend", virheIlmoitus);
+
 // lisätään tehtävä todo-listatte Enter-näppäimellä
 uusitodo.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
