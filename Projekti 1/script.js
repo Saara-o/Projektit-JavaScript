@@ -57,11 +57,11 @@ uusitodo.addEventListener("keypress", (e) => {
     render();
   }
 });
-
+// näyttää virheilmoituksen
 function naytaVirhe(viesti) {
   virheIlmoitus.textContent = viesti;
 }
-
+// poistaa virheilmoituksen kun virhe on korjattu
 function poistaVirhe() {
   virheIlmoitus.textContent = "";
 }
@@ -96,7 +96,7 @@ function render() {
     if (todo.tehty) li.classList.add('tehty');
 
     li.innerHTML = `
-      <input type="checkbox" ${todo.tehty ? "checked" : ''} onclick="toggleComplete(${i})">
+      <input type="checkbox" ${todo.tehty ? "checked" : ""} onclick="toggleComplete(${i})">
       <span>${todo.text}</span>
       <button onclick="deleteTodo(${i})">×</button>
     `;
