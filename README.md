@@ -12,3 +12,9 @@ Tämä on yksinkertainen todo-sovellus, joka on toteutettu HTML:llä, CSS:llä j
 - Suodatus: kaikki / aktiiviset / tehdyt
 - Aktiivisten tehtävien laskuri
 - Tallennus localStorageen (säilyy sivun latauksen jälkeen)
+
+
+
+Lähteet: 
+https://developer.mozilla.org/
+https://www.geeksforgeeks.org/
