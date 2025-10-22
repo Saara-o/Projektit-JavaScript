@@ -14,7 +14,8 @@ Tämä on yksinkertainen todo-sovellus, joka on toteutettu HTML:llä, CSS:llä j
 - Tallennus localStorageen (säilyy sivun latauksen jälkeen)
 
 
-
-Lähteet: 
+# Lähteet 
 https://developer.mozilla.org/
 https://www.geeksforgeeks.org/
+https://www.w3schools.com/js/
+https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla
