@@ -59,6 +59,7 @@ uusitodo.addEventListener("keypress", (e) => {
 
     // jos kaikki ok
     todos.push({ text: arvo, tehty: false });
+    tallennaTodos();
     e.target.value = "";
     poistaVirhe();
     render();
@@ -76,12 +77,14 @@ function poistaVirhe() {
 // tehtävä muutetaan tehdyksi
 function toggleComplete(index) {
   todos[index].tehty = !todos[index].tehty;
+  tallennaTodos();
   render();
 }
 
 // poistetaan todo-listalta tehtävä
 function deleteTodo(index) {
   todos.splice(index, 1);
+  tallennaTodos();
   render();
 }
 
@@ -124,4 +127,5 @@ filtteriBtn.forEach(btn => {
 });
 
 
+lataaTodos();
 render();
