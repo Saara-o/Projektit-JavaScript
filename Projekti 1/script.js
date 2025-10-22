@@ -29,11 +29,11 @@ let filter = "all";
 
 // localstoragen tallennus ja lataus
 function tallennaTodos() {
-  localStorage.setItem('todos', JSON.stringify(todos));
+  localStorage.setItem("todos", JSON.stringify(todos));
 }
 
 function lataaTodos() {
-  const tallennetut = localStorage.getItem('todos');
+  const tallennetut = localStorage.getItem("todos");
   if (tallennetut) {
     todos = JSON.parse(tallennetut);
   }
@@ -71,7 +71,7 @@ function naytaVirhe(viesti) {
 }
 
 function poistaVirhe() {
-  virheIlmoitus.textContent = '';
+  virheIlmoitus.textContent = "";
 }
 
 // tehtävä muutetaan tehdyksi
