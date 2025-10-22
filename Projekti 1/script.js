@@ -55,6 +55,10 @@ function naytaVirhe(viesti) {
   virheIlmoitus.textContent = viesti;
 }
 
+function poistaVirhe() {
+  virheIlmoitus.textContent = '';
+}
+
 // tehtävä muutetaan tehdyksi
 function toggleComplete(index) {
   todos[index].tehty = !todos[index].tehty;
