@@ -22,15 +22,31 @@ const uusitodo = document.getElementById("uusi-todo");
 const todolista = document.getElementById("todo-lista");
 const todoMr = document.getElementById("todo-maara");
 const filtteriBtn = document.querySelectorAll(".filtterit button");
+const virheIlmoitus = document.createElement('p');
 
 let todos = [];
 let filter = "all";
 
+uusitodo.insertAdjacentElement('afterend', virheIlmoitus);
 // lisätään tehtävä todo-listatte Enter-näppäimellä
-uusitodo.addEventListener("keypress", (e) => {
-  if (e.key === "Enter" && e.target.value.trim() !== "") {
-    todos.push({ text: e.target.value.trim(), completed: false });
-    e.target.value = "";
+uusitodo.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    const arvo = e.target.value.trim();
+
+    // tarkistus
+    if (arvo === '') {
+      naytaVirhe("Kenttä ei voi olla tyhjä!");
+      return;
+    }
+    if (arvo.length < 3) {
+      naytaVirhe("Tehtävän tulee olla vähintään 3 merkkiä pitkä!");
+      return;
+    }
+
+    // jos kaikki ok
+    todos.push({ text: arvo, tehty: false });
+    e.target.value = '';
+    poistaVirhe();
     render();
   }
 });
