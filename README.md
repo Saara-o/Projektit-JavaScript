@@ -15,7 +15,7 @@ Tämä on yksinkertainen todo-sovellus, joka on toteutettu HTML:llä, CSS:llä j
 
 
 # Lähteet 
-https://developer.mozilla.org/
-https://www.geeksforgeeks.org/
-https://www.w3schools.com/js/
-https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla
+- https://developer.mozilla.org/
+- https://www.geeksforgeeks.org/
+- https://www.w3schools.com/js/
+- https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla
