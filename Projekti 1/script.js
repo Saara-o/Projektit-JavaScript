@@ -27,6 +27,7 @@ const virheIlmoitus = document.createElement("p");
 let todos = [];
 let filter = "all";
 
+// virheilmoitus tekstikentän alle
 uusitodo.insertAdjacentElement("afterend", virheIlmoitus);
 // lisätään tehtävä todo-listatte Enter-näppäimellä
 uusitodo.addEventListener("keypress", (e) => {
