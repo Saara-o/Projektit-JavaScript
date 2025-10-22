@@ -27,14 +27,14 @@ const virheIlmoitus = document.createElement('p');
 let todos = [];
 let filter = "all";
 
-uusitodo.insertAdjacentElement('afterend', virheIlmoitus);
+uusitodo.insertAdjacentElement("afterend", virheIlmoitus);
 // lisätään tehtävä todo-listatte Enter-näppäimellä
-uusitodo.addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
+uusitodo.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
     const arvo = e.target.value.trim();
 
     // tarkistus
-    if (arvo === '') {
+    if (arvo === "") {
       naytaVirhe("Kenttä ei voi olla tyhjä!");
       return;
     }
@@ -45,7 +45,7 @@ uusitodo.addEventListener('keypress', (e) => {
 
     // jos kaikki ok
     todos.push({ text: arvo, tehty: false });
-    e.target.value = '';
+    e.target.value = "";
     poistaVirhe();
     render();
   }
