@@ -4,7 +4,7 @@ Tekijät: Saara Orvas ja Atte Liikanen
 ## Verkkolinkit:
 Saaran linkki videoesittelyyn: https://video.laurea.fi/media/Todo-listan%20esittely/0_8frv3k1l
 
-Aten linkki videoesittelyyn: 
+Aten linkki videoesittelyyn: https://video.laurea.fi/media/Todo-esittely-atte.liikanen/0_tjo6lnx1
 
 ## Työn jakautuminen
 Projekti on tehty parityönä Discordissa. Olemme yhdessä pohtineet, miten haluamme toteuttaa sovelluksen ja mitä toimintoja siihen haluamme lisätä sekä sopineet kumpi meistä kulloinkin tekee lisäykset tai tarvittavat muutokset/korjaukset koodiin. Yhteistyö sujui hyvin, vaikka alussa oli teknisiä ongelmia VS coden live sharen kanssa, jota emme saaneet toimimaan.
@@ -12,7 +12,7 @@ Projekti on tehty parityönä Discordissa. Olemme yhdessä pohtineet, miten halu
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Saara: Koen, että onnistuin projektin toteuttamisessa hyvin ja hahmotan paremmin JavaScriptin logiikkaa sekä funktioiden luominen tuntuu helpommalta. Minulle on vielä hieman epäselvää, miten localStorage toimii. Projektista puuttuu HTML5 drag&drop toiminta sekä elementin piilottaminen, jotka minun olisi hyvä oppia. Antaisin itselleni 8-9/10.
 
-Atte:
+Atte: Projekti onnistui hyvin, sitä oli hauska tehä ja opin javascriptistä uusia asioita, lisäksi sisäistin samalla paljon paremmin aijemmin opittua kun moneen kertaan käytiin läpi kohtia miten teemme, miten teemme ja miksi ei toimi jne. Kaiken kaikkiaan hyvä projekti mielestäni, antaisin arvosanaksi 8/10.
 
 ## Sisällysluettelo
 
