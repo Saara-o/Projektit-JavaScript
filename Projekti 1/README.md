@@ -17,8 +17,11 @@ Atte:
 ## Sisällysluettelo
 
 - [Tietoja sovelluksesta](#tietoja-sovelluksesta)
+- [Kuvakaappaus](#kuvakaappaus)
 - [Teknologiat](#teknologiat)
 - [Asennus](#asennus)
+- [Kiitokset](#kiitokset)
+- [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
 Tämä on yksinkertainen todo-sovellus, joka on tehty Laurean Web-sovellusten kehittäminen JavaScriptillä kurssille projektityönä. Todo-listalle voi lisätä uusia tehtäviä, poistaa niitä sekä merkitä ne tehdyksi tai takaisin aktiiviksi. Kaikki muutokset listaan tallentuvat localstorageen. Todo-listalla on myös laskuri, joka ilmoittaa kuinka monta tehtävää on tekemättä.
