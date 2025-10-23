@@ -50,3 +50,4 @@ Projektin tekemisessä on käytetty seuraavia lähteitä:
 - https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla
 
 ## Lisenssi
+MIT-lisenssi @ Saara Orvas, Atte Liikanen
