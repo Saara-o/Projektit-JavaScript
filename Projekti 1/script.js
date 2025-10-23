@@ -96,7 +96,7 @@ function render() {
   todoMr.textContent = `${aktiiviMr} tehtävä${aktiiviMr !== 1 ? "ä" : ""} jäljellä`;
 }
 
-// muuttaa näppäimet All, Active, Completed musta/punainen sen mukaan, mikä niistä on aktiivinen
+// muuttaa näppäimet All, Active, Completed musta/sininen sen mukaan, mikä niistä on aktiivinen
 filtteriBtn.forEach(btn => {
   btn.addEventListener("click", () => {
     filtteriBtn.forEach(b => b.classList.remove("selected"));
